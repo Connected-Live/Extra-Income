@@ -2,8 +2,12 @@
     background-color: #D2E4ED;
 }
 
+.container_master{
+    height: 100vh;
+    padding-left:10%;
+}
+
 .container {
-    width: 100%;
     display: flex;
 }
 
@@ -72,12 +76,20 @@
 }
 
 .h2_text{
+    margin-top: 5px;;
     padding: 5px 30px;
     font-size: 3em;
 }
 
 p{
-font-size:1.3em;
+width: 592px;
+font-size: 18px;
+line-height: 150%;
+}
+
+.text_cell{
+    padding-left: 5%;
+    width: 50%;
 }
 
 .p_invest{
@@ -104,4 +116,10 @@ font-size:1.3em;
 }
 li{
     list-style-image: url("../image/ilustrations/li.svg");
+}
+
+hr{
+    width: 30%;
+    margin-left: 5%;
+    border: 1px solid #DEB318;
 }
