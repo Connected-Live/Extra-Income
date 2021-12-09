@@ -1,0 +1,50 @@
+@media screen and (max-width: 1368px) {
+    .arrow {
+        position: absolute;
+        bottom: 5px;
+    }
+
+    .container_master {
+        margin-bottom: 200px;
+    }
+
+    .computer {
+        width: 400px;
+    }
+
+    .cryptocurrencies {
+        width: 400px;
+    }
+
+    .phone {
+        width: 80%;
+    }
+
+    .slider .slide .des {
+        margin-left: 53%;
+    }
+
+    .slider .slide .des p {
+        max-width: 450px;
+    }
+    
+    .navigation {
+        width: 67.5%;
+    }
+
+    .navigation-visibility {
+        bottom: -80px;
+        left:-10%;
+    }
+
+  
+
+}
+
+@media screen and (max-width: 1028px) {
+    .arrow {
+        bottom: 2px;
+    }
+
+
+}
