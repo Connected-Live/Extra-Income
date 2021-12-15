@@ -2,9 +2,9 @@
     background-color: #D2E4ED;
 }
 
-.container_master{
+.container_master {
     height: 100vh;
-    padding-left:10%;
+    padding-left: 10%;
 }
 
 .container {
@@ -69,57 +69,98 @@
 .arrow {
     margin-top: -80px;
     margin-left: 20px;
+    background-color: transparent;
 }
 
 .invest {
     padding-top: 100px;
 }
 
-.h2_text{
-    margin-top: 5px;;
+.h2_text {
+    margin-top: 5px;
+    ;
     padding: 5px 30px;
     font-size: 3em;
 }
 
-p{
-width: 592px;
-font-size: 18px;
-line-height: 150%;
+p {
+    width: 592px;
+    font-size: 18px;
+    line-height: 150%;
 }
 
-.text_cell{
+.text_cell {
     padding-left: 5%;
     width: 50%;
 }
 
-.p_invest{
+.p_invest {
     padding-left: 30px;
     width: 70%;
 }
 
-.text_investing{
+.text_investing {
     padding-left: 50px;
     width: 50%;
 }
 
-.img_investing{
+.img_investing {
     width: 50%;
 }
 
-.button_invest{
+.button_invest {
     margin-left: 5%;
 }
 
-.button_investing{
+.button_investing {
     margin: 50px;
     margin-bottom: 30PX;
 }
-li{
+
+li {
     list-style-image: url("../image/ilustrations/li.svg");
 }
 
-hr{
+hr {
     width: 30%;
     margin-left: 5%;
     border: 1px solid #DEB318;
 }
+
+.slider {
+    width: 100%;
+}
+
+.contact_img {
+    position: relative;
+    top:-100px;
+    right:-1000px;
+    width: 40%;
+}
+
+.img_contact {
+    width: 60%;
+}
+
+form{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+    top:-350px;
+    left: 42px;
+    background-color: transparent;
+    font-size: x-large;
+}
+
+input {
+    padding: 0 20px;
+    margin: 18px 0;
+    outline: none;
+    border-radius: 6px;
+    font-size: 18px;
+    line-height: 40px;
+    border: unset;
+    border-radius: 4px;
+    background-color: #EBE7E1;
+}   
