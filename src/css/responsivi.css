@@ -1,192 +1,257 @@
-@media screen and (max-width: 1440px) {
-    .arrow {
-        position: absolute;
-        bottom: 50px;
-    }
-
-    .card-back {
-        font-size: 18px;
-    }
-
-    .contact_img {
-        position: relative;
-        right: -650px;
-        width: 500px;
-        top: -150px;
-    }
-
-    .img_contact {
+@media screen and (max-width: 1445px) {
+    .img_money {
         width: 80%;
-    }
-
-    form {
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        width: 300px;
-        top: -370px;
-        left: 50px;
-        background-color: transparent;
-    }
-
-    input {
-        padding: 0 20px;
-        margin: 18px 0;
-        outline: none;
-        border-radius: 33px;
-    }
-}
-
-@media screen and (max-width: 1368px) {
-    .arrow {
-        position: absolute;
-        bottom: 5px;
-    }
-
-    .container_master {
-        margin-bottom: 200px;
-    }
-
-    .container_people {
-        padding-left: 150px;
     }
 
     .computer {
-        width: 400px;
+        width: 90%;
     }
 
     .cryptocurrencies {
-        width: 400px;
+        width: 80%;
+    }
+
+    .text_invest {
+        width: 100%;
     }
 
     .phone {
-        width: 80%;
+        width: 150%;
     }
 
-
-
-    .contact_img {
-        position: relative;
-        right: -650px;
-        width: 500px;
-        top: -150px;
+    .card {
+        height: 500px;
+        width: 300px;
     }
 
-    .img_contact {
-        width: 60%;
+    .final {
+        padding-top: 100px;
     }
 
     form {
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        width: 245px;
-        top: -300px;
-        left: 30px;
-        background-color: transparent;
-    }
-
-    input {
-        padding: 0 20px;
-        margin: 18px 0;
-        outline: none;
-        border-radius: 33px;
-    }
-}
-
-@media screen and (max-width: 1285px) {
-    .arrow {
-        bottom: 2px;
-    }
-
-    .card-back {
-        font-size: 16px;
+        width: 35%;
     }
 
 }
 
-@media screen and (max-width: 1030px) {
-    .card-back {
-        font-size: 14px;
-    }
-
-    .contact_img {
-        position: relative;
-        right: -400px;
-        width: 400px;
-        top: -100px;
-    }
-
-    .img_contact {
-        width: 80%;
+@media screen and (max-width: 1288px) {
+    .computer {
+        width: 98%;
     }
 
     form {
-        width: 230px;
-        top: -320px;
-        left: 50px;
+        width: 39%;
     }
 }
 
-@media screen and (max-width: 840px) {
-    .arrow {
-        display: none;
+@media screen and (max-width: 1288px) {
+    .computer {
+        width: 98%;
     }
 
+    form {
+        width: 39%;
+    }
+}
+
+@media screen and (max-width: 1213px) {
+    form {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width:1048px) {
+    .container_card {
+        display: block;
+    }
+
+    .card {
+        left: 30%;
+    }
+
+    form {
+        width: 48%;
+    }
+}
+
+@media screen and (max-width:1030px) {
     .container {
         display: block;
     }
 
-    .container_titulo{
+    .container_titulo {
         width: 100%;
     }
 
-    .image_hero1{
+    .img_money {
+        width: 50%;
+    }
+
+    .img_invest,
+    .arrow {
+        display: none;
+    }
+
+    .cryptocurrencies {
+        width: 25%;
+    }
+
+    .cryptocurrencies_master {
+        margin-top: 50px;
+    }
+
+    .text_cell {
         width: 100%;
     }
 
-    .button{
+    .phone {
+        width: 200%;
+    }
+
+    .img_investings {
+        margin-left: 30%;
+    }
+
+    .container_people {
+        margin-top: 200px;
+    }
+
+    form {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:924px) {
+    .container_people {
+        padding-top: 70px;
+    }
+
+    form {
+        width: 63%;
+    }
+}
+
+@media screen and (max-width:815px) {
+    form {
+        width: 65%;
+    }
+}
+
+@media screen and (max-width:709px) {
+    .cryptocurrencies_master {
+        padding-top: 50px;
+    }
+
+    form {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width:615px) {
+
+    .cryptocurrencies_master,
+    .container_people {
+        padding-top: 100px;
+    }
+
+    form {
+        width: 88%;
+    }
+}
+
+@media screen and (max-width:615px) {
+    .container_people {
+        padding-top: 150px;
+    }
+}
+
+@media screen and (max-width:595px) {
+
+    .cryptocurrencies_master,
+    .container_people {
+        padding-top: 190px;
+    }
+}
+
+@media screen and (max-width:544px) {
+    .cryptocurrencies_master {
+        padding-top: 250px;
+    }
+
+    .contact_img {
+        height: 800px;
+        left: 10%;
+    }
+
+    form {
         width: 100%;
-        justify-content: center;
-        text-align: center;
+    }
+}
+
+@media screen and (max-width:416px) {
+    * {
+        display: block;
+    }
+
+    title {
+        display: none;
     }
 
     .img_money {
         width: 90%;
-        padding-top: 20px;
-        background-color: transparent;
-    }
-}
-
-@media screen and (max-width: 414px) {
-    .container {
-        display: inline-block;
     }
 
-    .container_titulo {
+    .cryptocurrencies {
+        width: 100%;
+    }
+    
+    .cryptocurrencies_master{
+        margin-top: -80px;
+    }
+    
+    .phone {
+        width: 250px;
+        margin-left: -25px;
+    }
+
+    .container_card {
+        width: 10px;
+    }
+
+    .final {
+        width: 100%;
+    }
+
+    .img_contact {
+        width: 100%;
+    }
+
+    .vend {
+        top: -450px;
+        width: 100px;
+        left: 100px;
+        font-size: .9em;
+    }
+
+    form {
+        left: 65px;
+        top: -400px;
         width: 50%;
     }
 
-    .h1_titulo {
-        font-size: 25px;
+    h1 {
+        font-size: 50px;
     }
-
-    .p_hero1 {
-        font-size: 20px;
-        padding: 24px 0 60px 0;
+    
+    h2 {
+        font-size: 30px;
     }
-
-    .ul_hero1 {
-        font-size: 16px;
-        padding-bottom: 4px;
+    
+    h3 {
+        font-size: 18px;
     }
-
-    .image_hero1 {
-        background-color: transparent;
-        width: 50%;
+    
+    p {
+        font-size: 18px;
     }
-
-
-
-
 }
