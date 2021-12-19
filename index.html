@@ -8,11 +8,11 @@
     <link rel="stylesheet" href="./src/css/style.css">
     <link rel="stylesheet" href="./src/css/people.css">
     <link rel="stylesheet" href="./src/css/responsivi.css">
-    <title>Renda extra</title>
+    <title>Renda Extra</title>
 </head>
 
 <body>
-    <section class="container_master">
+    <section class="container_master" id="home">
         <div class="container">
             <div class="container_titulo">
                 <h1 class="h1_titulo">Renda extra para a vida toda </h1>
@@ -34,11 +34,13 @@
             </div>
         </div>
         <div class="arrow">
-            <img src="./src/image/icons/arrow.svg" alt="arrow down" class="arrow_down">
+            <a href="#invet">
+                <img src="./src/image/icons/arrow.svg" alt="arrow down" class="arrow_down">
+            </a>
         </div>
     </section>
     <main>
-        <div class="container_master">
+        <div class="container_master" id="invet">
             <div class="container invest">
                 <div class="img_invest">
                     <img src="./src/image/image/computer.svg" alt="computer" class="computer">
@@ -55,8 +57,8 @@
             </div>
             <div class="container">
                 <div class="text_investing">
-                    <h2 class="h2_text">Perfil de investidor</h2>
-                    <p>
+                    <h2 class="h2_text h2_investing">Perfil de investidor</h2>
+                    <p class="p_investing">
                         Isso mesmo existem vários perfis de investidores sendo eles.
                         <ul>
                             <li>Conservador</li>
@@ -64,22 +66,20 @@
                             <li>Agressivo</li>
                         </ul>
                     </p>
-                    <p>
+                    <p class="p_investing">
                         Venha conosco, descobrir qual e o seu e investir nos lugares que seu perfil ira lhe render mais
                         lucros.
                     </p>
                 </div>
                 <div class="img_investing">
-                    <img src="./src/image/ilustrations/cryptocurrencies.svg" alt="cryptocurrencies"
-                        class="cryptocurrencies">
+                    <img src="./src/image/ilustrations/cryptocurrencies.svg" alt="cryptocurrencies" class="cryptocurrencies">
                 </div>
             </div>
-            <a href="#" class="primary_button button_investing">primary button</a>
         </div>
-        <div class="container_master">
+        <div class="container_master cryptocurrencies_master">
             <h2 class="h2_text">Tenha controle de tudo em sua mão</h2>
             <hr />
-            <div class="container">
+            <div class="container container_cell">
                 <div class="text_cell">
                     <div class="text_invest">
                         <h3>Comece com aquilo que tem acesso e disponível.</h3>
@@ -102,14 +102,13 @@
                         </p>
                     </div>
                 </div>
-                <div class="img_investing">
+                <div class="img_investings">
                     <img src="./src/image/ilustrations/phone.svg" alt="cell phone" class="phone">
                 </div>
             </div>
         </div>
         <div class="container_people">
             <h2 class="h2_text">Quem Somos</h2>
-
         </div>
         <div class="container_card">
             <div class="card">
@@ -118,8 +117,10 @@
                 <div class="card-back">
                     <h2>
                         <h2>Danrly de freitas</h2>
-                        Ex estudante de Administração (UFOP), estudante de Medicina (UFV), youtuber, investidor,
-                        influenciador digital e cristão
+                        <p class="p_card">
+                            Ex estudante de Administração (UFOP), estudante de Medicina (UFV), youtuber, investidor,
+                            influenciador digital e cristão
+                        </p>
                 </div>
             </div>
             <div class="card">
@@ -128,12 +129,13 @@
                 <div class="card-back">
                     <h2>
                         <h2>Ezequiel de Freitas</h2>
-                        Trabalho investindo para o Lucas Neto (Dono do OBJETIVO CONCURSOS no Ceará). <br>
-                        Passei 7 meses no Ceará aprendendo fazer lançamentos. <br>
-                        Sou monitor no COOPVEST de Ponte Nova. <br>
-                        Aprovado em 1 lugar Arquitetura no UFRRJ, 3 Lugar de engenharia UFOP, Bolsa 100% na
-                        Pitágoras no curso de Direito e bolsa 100% Odontologia na FAMIG. Cristão
-
+                        <p class="p_card">
+                            Trabalho investindo para o Lucas Neto (Dono do OBJETIVO CONCURSOS no Ceará). <br>
+                            Passei 7 meses no Ceará aprendendo fazer lançamentos. <br>
+                            Sou monitor no COOPVEST de Ponte Nova. <br>
+                            Aprovado em 1 lugar Arquitetura no UFRRJ, 3 Lugar de engenharia UFOP, Bolsa 100% na
+                            Pitágoras no curso de Direito e bolsa 100% Odontologia na FAMIG. Cristão
+                        </p>
                 </div>
             </div>
             <div class="card">
@@ -142,8 +144,10 @@
                 <div class="card-back">
                     <h2>
                         <h2>Vicente Carmo</h2>
-                        Bacharel em Administração e Teologia, formado em missões pelo CEM, pós graduando em
-                        gestão de negócios, missionário, investidor e empreendedor.
+                        <p class="p_card">
+                            Bacharel em Administração e Teologia, formado em missões pelo CEM, pós graduando em
+                            gestão de negócios, missionário, investidor e empreendedor.
+                        </p>
                 </div>
             </div>
             <div class="card">
@@ -152,21 +156,23 @@
                 <div class="card-back">
                     <h2>
                         <h2>David Freitas</h2>
-                        Professor e comunicador Social. <br>
-                        Graduado em Processos gerenciais. <br>
-                        Licenciado em Matemática. <br>
-                        Bacharel em teologia. <br>
-                        Pós graduado em Metodologia do ensino de Física e
-                        Matemática. <br>
-                        Matemática Financeira e Estatística. <br>
-                        Pós graduando em pisicopedagogia
-                        clínica e Institucional. <br>
-                        Empresário e Consultor financeiro. <br>
-                        Cristão.
+                        <p class="p_card">
+                            Professor e comunicador Social. <br>
+                            Graduado em Processos gerenciais. <br>
+                            Licenciado em Matemática. <br>
+                            Bacharel em teologia. <br>
+                            Pós graduado em Metodologia do ensino de Física e
+                            Matemática. <br>
+                            Matemática Financeira e Estatística. <br>
+                            Pós graduando em pisicopedagogia
+                            clínica e Institucional. <br>
+                            Empresário e Consultor financeiro. <br>
+                            Cristão.
+                        </p>
                 </div>
             </div>
         </div>
-        <div class="container_master">
+        <div class="final">
             <h2 class="h2_text">Renda extra para a vida toda </h2>
             <div class="container_contact">
                 <p class="p_invest">
@@ -178,6 +184,7 @@
             </div>
             <div class="contact_img">
                 <img src="./src/image/icons/contact.svg" alt="" class="img_contact">
+                <h3 class="vend">venha conosco por apenas xxx</h3> 
                 <form action="https://formsubmit.co/gomidestulio5@gmail.com" method="POST">
                     <input type="hidden" name="_captcha" value="false">
                     <input type="text" name="name" required placeholder="Nome">
@@ -187,10 +194,12 @@
                     <button class="primary_button" type="submit">Send</button>
                 </form>
             </div>
+            <a href="#home">
+                <img src="./src/image/icons/arrow.svg" alt="arrow up" class="arrow_up">
+            </a>
         </div>
     </main>
 
 </body>
-<script src="./src/js/people.js"></script>
 
 </html>
