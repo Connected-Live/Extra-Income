@@ -159,11 +159,25 @@
     }
 }
 
-@media screen and (max-width:615px) {
-    .container_people {
-        padding-top: 150px;
+@media screen and (max-width:600px) {
+    .img_money {
+        width: 90%;
+    }
+
+    .cryptocurrencies {
+        width: 80%;
+    }
+
+    .container_card {
+        width: 100%;
+        margin-left: -50px;
+    }
+
+    .contact_img {
+        left: -100px;
     }
 }
+
 
 @media screen and (max-width:595px) {
 
@@ -204,11 +218,11 @@
     .cryptocurrencies {
         width: 100%;
     }
-    
-    .cryptocurrencies_master{
+
+    .cryptocurrencies_master {
         margin-top: -80px;
     }
-    
+
     .phone {
         width: 250px;
         margin-left: -25px;
@@ -242,16 +256,42 @@
     h1 {
         font-size: 50px;
     }
-    
+
     h2 {
         font-size: 30px;
     }
-    
+
     h3 {
         font-size: 18px;
     }
-    
+
     p {
         font-size: 18px;
+    }
+}
+
+@media screen and (max-width:384px) {
+    .container_master {
+        margin-top: 150px;
+    }
+
+    .container_people {
+        margin-top: 300px;
+    }
+
+    .vend {
+        top: -400px;
+        left: 90px;
+    }
+}
+
+@media screen and (max-width:360px) {
+    .final {
+        display: none;
+    }
+
+    .button_final {
+        margin-top: 50px;
+        display: block;
     }
 }
