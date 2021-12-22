@@ -212,6 +212,10 @@ input {
     float: right;
 }
 
+.button_final{
+    display: none;
+}
+
 script {
     display: none;
 }
