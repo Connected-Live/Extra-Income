@@ -14,7 +14,7 @@ Divided into sections where the first one generates the reader's desire to be mo
 ## Investor profile
 Users are introduced to some categories of crypto gizzards, showing that the course is not only aimed at renga means said to be convincing, but it is more attentive to the market, seeking greater profits
 
-![Cryptocurrencies](https://raw.githubusercontent.com/Connected-Live/Extra-Income/e50abda540f6b273600e887451025d88da9fa40d/src/image/ilustrations/cryptocurrencies.svg?token=ALZATKIAVHNN3QO5BXI3XW3B3NGES)
+![Cryptocurrencies](https://raw.githubusercontent.com/Connected-Live/Extra-Income/d5158db6308a7d7c332c4935925389204c17c2d4/src/image/ilustrations/cryptocurrencies.svg?token=ALZATKKQLTKKCMMW7LB4C7LB3NHMO)
 
 ## Have control of everything in your hand
 
