@@ -1,33 +1,23 @@
-# Extra-Income
-Nossa meta é lhe mostrar que
-investir é pra você.
+# Extra income for life
+Our goal is to show you that investing is for you.
 
-Renda extra para a vida toda.
+## Designer 
+Developed by choosing the correct color palette, taking into account the category of page used and the audience to which this color page would be directed, we used primary and secondary colors as a contrast to create a focus color and another complementary one based on the whole the site the hue lowers.
+ 
+![Color Palette](https://github.com/Connected-Live/Extra-Income/blob/main/src/image/designer/color%20palette.png?raw=true)
 
-## Porque devo investir?
-Ja pensou em parar de trabalhar por dinheiro e deixa-lo fazer isso para você, ao investir em sua essência e isso que acontece, os investimentos inicialmente podem não trazer grandes retornos, mas se você tiver consistência e um bom acompanhamento, recompensas grandiosas estarão a sua esperar vamos ajudá-lo a chegara a elas focando em curto, médio e longo prazo.
+Divided into sections where the first one generates the reader's desire to be more wanting to know why things are
 
-## Perfil de investidor
-Isso mesmo existem vários perfis de investidores sendo eles.
+![Hero 1](https://github.com/Connected-Live/Extra-Income/blob/main/src/image/designer/hero1.png?raw=true)
 
-* Conservador
-* Moderado
-* Agressivo
 
-Venha conosco, descobrir qual e o seu e investir nos lugares que seu perfil ira lhe render mais lucros.
+## Investor profile
+Users are introduced to some categories of crypto gizzards, showing that the course is not only aimed at renga means said to be convincing, but it is more attentive to the market, seeking greater profits
 
-## Tenha controle de tudo em sua mão.
+![Cryptocurrencies](https://raw.githubusercontent.com/Connected-Live/Extra-Income/e50abda540f6b273600e887451025d88da9fa40d/src/image/ilustrations/cryptocurrencies.svg?token=ALZATKIAVHNN3QO5BXI3XW3B3NGES)
 
-**Comece com aquilo que tem acesso e disponível.**
+## Have control of everything in your hand
 
-Com o avanço das tecnologias ficou mais fácil para se investir, pois, varias corretoras se moldaram com as tendências do mercado e migram para o mundo digital gerando deste assim inúmeras vantagens a você futuro investidor sendo algumas delas.
+In this section, users are invited to use the technologies that are at their fingertips and disposition to earn money, we show that cell phones today are the biggest and fastest way to invest
 
-Atualizações automáticas de informações em tempo real sobre acoes e investimentos;
-
-* Acesso rápido e prático a gráficos de rentabilidade;
-
-* Facilidade de administração e visualização de ativos;
-
-* Tudo na palma da sua mão;
-
-Em nosso curso você aprendera a gerir sua carteira de investimento com poucos cliques, mas com sabedoria focando na rentabilidade para obter a tao desejada renda extra por toda a vida.
+![Phone](https://raw.githubusercontent.com/Connected-Live/Extra-Income/e50abda540f6b273600e887451025d88da9fa40d/src/image/ilustrations/phone.svg?token=ALZATKPEGUTBIRRLV7T466DB3NG5A)
