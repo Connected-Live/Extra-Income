@@ -1,297 +1,76 @@
-@media screen and (max-width: 1445px) {
-    .img_money {
-        width: 80%;
-    }
-
-    .computer {
-        width: 90%;
-    }
-
-    .cryptocurrencies {
-        width: 80%;
-    }
-
-    .text_invest {
-        width: 100%;
-    }
-
-    .phone {
-        width: 150%;
-    }
-
-    .card {
-        height: 500px;
-        width: 300px;
-    }
-
-    .final {
-        padding-top: 100px;
-    }
-
-    form {
-        width: 35%;
-    }
-
-}
-
-@media screen and (max-width: 1288px) {
-    .computer {
-        width: 98%;
-    }
-
-    form {
-        width: 39%;
-    }
-}
-
-@media screen and (max-width: 1288px) {
-    .computer {
-        width: 98%;
-    }
-
-    form {
-        width: 39%;
-    }
-}
-
-@media screen and (max-width: 1213px) {
-    form {
-        width: 45%;
-    }
-}
-
-@media screen and (max-width:1048px) {
-    .container_card {
-        display: block;
-    }
-
-    .card {
-        left: 30%;
-    }
-
-    form {
-        width: 48%;
-    }
-}
-
 @media screen and (max-width:1030px) {
     .container {
-        display: block;
-    }
-
-    .container_titulo {
-        width: 100%;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
     }
 
     .img_money {
-        width: 50%;
+        width: 80%;
     }
 
-    .img_invest,
-    .arrow {
-        display: none;
+    .investing {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-self: flex-end;
     }
+
+
 
     .cryptocurrencies {
-        width: 25%;
+        width: 70%;
     }
 
-    .cryptocurrencies_master {
-        margin-top: 50px;
-    }
-
-    .text_cell {
-        width: 100%;
+    .container_cell {
+        display: flex;
+        flex-direction: column;
     }
 
     .phone {
-        width: 200%;
-    }
-
-    .img_investings {
-        margin-left: 30%;
-    }
-
-    .container_people {
-        margin-top: 200px;
-    }
-
-    form {
-        width: 50%;
-    }
-}
-
-@media screen and (max-width:924px) {
-    .container_people {
-        padding-top: 70px;
-    }
-
-    form {
-        width: 63%;
-    }
-}
-
-@media screen and (max-width:815px) {
-    form {
-        width: 65%;
-    }
-}
-
-@media screen and (max-width:709px) {
-    .cryptocurrencies_master {
-        padding-top: 50px;
-    }
-
-    form {
-        width: 75%;
-    }
-}
-
-@media screen and (max-width:615px) {
-
-    .cryptocurrencies_master,
-    .container_people {
-        padding-top: 100px;
-    }
-
-    form {
-        width: 88%;
-    }
-}
-
-@media screen and (max-width:600px) {
-    .img_money {
-        width: 90%;
-    }
-
-    .cryptocurrencies {
         width: 80%;
     }
 
     .container_card {
-        width: 100%;
-        margin-left: -50px;
-    }
-
-    .contact_img {
-        left: -100px;
+        display: flex;
+        flex-direction: column;
+        height: 80%;
     }
 }
 
-
-@media screen and (max-width:595px) {
-
-    .cryptocurrencies_master,
-    .container_people {
-        padding-top: 190px;
-    }
-}
-
-@media screen and (max-width:544px) {
-    .cryptocurrencies_master {
-        padding-top: 250px;
+@media screen and (max-width:900px) {
+    .container {
+        flex-direction: column;
     }
 
-    .contact_img {
-        height: 800px;
-        left: 10%;
-    }
-
-    form {
-        width: 100%;
-    }
-}
-
-@media screen and (max-width:416px) {
-    * {
-        display: block;
-    }
-
-    title {
-        display: none;
-    }
-
-    .img_money {
+    .computer {
         width: 90%;
     }
+}
 
-    .cryptocurrencies {
-        width: 100%;
+@media screen and (max-width:500px) {
+    .container_titulo {
+        display: flex;
+        flex-direction: column;
     }
 
-    .cryptocurrencies_master {
-        margin-top: -80px;
+    .button {
+        flex-direction: column;
     }
 
-    .phone {
+    .card {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width:350px) {
+    .card {
         width: 250px;
-        margin-left: -25px;
     }
 
-    .container_card {
-        width: 10px;
-    }
-
-    .final {
-        width: 100%;
-    }
-
-    .img_contact {
-        width: 100%;
-    }
-
-    .vend {
-        top: -450px;
-        width: 100px;
-        left: 100px;
-        font-size: .9em;
-    }
-
-    form {
-        left: 65px;
-        top: -400px;
-        width: 50%;
-    }
-
-    h1 {
-        font-size: 50px;
-    }
-
-    h2 {
-        font-size: 30px;
-    }
-
-    h3 {
-        font-size: 18px;
-    }
-
-    p {
-        font-size: 18px;
-    }
-}
-
-@media screen and (max-width:384px) {
-    .container_master {
-        margin-top: 150px;
-    }
-
-    .container_people {
-        margin-top: 300px;
-    }
-
-    .vend {
-        top: -400px;
-        left: 90px;
-    }
-}
-
-@media screen and (max-width:360px) {
-    .final {
-        display: none;
-    }
-
-    .button_final {
-        margin-top: 50px;
-        display: block;
+    .form {
+        padding: 20px;
+        width: 220px;
     }
 }
