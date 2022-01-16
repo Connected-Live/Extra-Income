@@ -16,7 +16,7 @@
 
 .card:hover .card-front {
 	transform: rotateY(180deg);
-	cursor: pointer;
+	cursor:wait;
 }
 
 .card:hover .card-back {
