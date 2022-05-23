@@ -1,0 +1,133 @@
+.btn {
+  display: inline-block;
+  color: $white-light;
+  transition: 0.6s ease;
+  padding: 8px 24px;
+  text-align: center;
+  border: 0;
+
+  cursor: pointer;
+  transition: 0.3s ease;
+
+  background-color: $primary-normal;
+  border-radius: 4px;
+
+  @include typeface-2(p3, desktop);
+  @include responsive(s) {
+    @include typeface-2(p3, mobile);
+    padding: 16px 24px;
+  }
+  @include responsive(xs) {
+    @include typeface-2(p3, smallmobile);
+    padding: 16px 24px;
+  }
+
+  position: relative;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.btn-secundary {
+  display: inline-block;
+  color: $white-light;
+  transition: 0.6s ease;
+  padding: 8px 24px;
+  text-align: center;
+  border: 0;
+  color: $black-dark;
+  cursor: pointer;
+  transition: 0.3s ease;
+  border: 10px;
+  border-color: $black-dark;
+  border-radius: 4px;
+
+  @include typeface-2(p3, desktop);
+  @include responsive(s) {
+    @include typeface-2(p3, mobile);
+    padding: 16px 24px;
+  }
+  @include responsive(xs) {
+    @include typeface-2(p3, smallmobile);
+    padding: 16px 24px;
+  }
+
+  position: relative;
+
+  &:hover {
+    transform: translateY(-10px);
+    background-color: $primary-normal;
+  }
+}
+a {
+  @include typeface-2(p3, desktop);
+  text-decoration: none;
+  color: $white-light;
+  transition: 0.5s ease;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.link-title {
+  text-decoration: none;
+
+  transition: 0.3s ease;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.link {
+  color: $primary-normal;
+}
+
+.link-footer {
+  padding: 8px 8px 8px 8px;
+
+  transition: 0.7s ease;
+
+  &:hover {
+    padding: 8px 8px 8px 16px;
+  }
+}
+
+input {
+  accent-color: $primary-normal;
+}
+
+textarea {
+  resize: none;
+}
+
+input:focus,
+select:focus,
+option:focus,
+textarea:focus {
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}
+
+
+input,
+select,
+option,
+textarea {
+  padding: 10px 12px;
+  background-color: $black-light;
+  border: 0;
+  border-radius: 4px;
+  color: $white-light;
+  width: 100%;
+
+  @include typeface-2(p3, desktop);
+}
+
+input[type="date"],
+select,
+option {
+  height: 44px;
+}
